@@ -1,0 +1,11 @@
+while
+read line
+do
+   echo $line | sed 's/flag/banner/g'
+done
+
+# coproc mysed { ./coproc-sed ; }
+# echo ${mysed[1]}
+# echo ${mysed[0]}
+# cat coproc-data >&58
+# echo <& 63

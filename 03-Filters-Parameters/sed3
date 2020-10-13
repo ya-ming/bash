@@ -1,0 +1,4 @@
+sed -n "$1,$2p"
+
+#bash sed3 3 5  <sometext
+#echo out lines 3 to 5

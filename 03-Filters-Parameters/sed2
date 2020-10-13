@@ -1,0 +1,4 @@
+s/a/A/
+s/B/BBB/
+
+#sed -f sed2 sometext
